@@ -168,7 +168,7 @@ const Login = () => {
                           type="submit"
                           color="primary"
                           variant="contained"
-                          sx={{ my: 1, marginLeft: 30, width: 95, height: 35 }}
+                          sx={{ my: 1, marginLeft: 30, width: 95, height: 35, marginBottom: 10  }}
                         >
                           Login
                         </LoadingButton>
