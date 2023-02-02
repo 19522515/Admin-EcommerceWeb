@@ -1,0 +1,93 @@
+/*
+ * root scss
+ * file: variables.scss
+ */
+
+@import "./variables.scss";
+@import "./bases.scss";
+@import "./mixins.scss";
+//Import your scss files here
+// ------------ Import your scss files here ---------------
+// Import Atoms Components
+@import "../components/atoms/Chart/Chart.scss";
+@import "../components/atoms/ActiveStatus/ActiveStatus.scss";
+@import "../components/atoms/AddCategories/AddCategories.scss";
+@import "../components/atoms/AddColor/AddColor.scss";
+@import "../components/atoms/AddDescription/AddDescription.scss";
+@import "../components/atoms/AddImage/AddImage.scss";
+@import "../components/atoms/AddListImage/AddListImage.scss";
+@import "../components/atoms/Alert/Alert.scss";
+@import "../components/atoms/Button/Button.scss";
+@import "../components/atoms/CategoriesManage/CategoriesManage.scss";
+@import "../components/atoms/ChangeStatus/ChangeStatus.scss";
+@import "../components/atoms/CircularLoading/CircularLoading.scss";
+@import "../components/atoms/Label/Label.scss";
+@import "../components/atoms/Popup/Popup.scss";
+
+// Import Molecules Components
+@import "../components/molecules/Featured/Featured.scss";
+@import "../components/molecules/Navbar/Navbar.scss";
+@import "../components/molecules/Sidebar/Sidebar.scss";
+@import "../components/molecules/Widget/Widget.scss";
+@import "../components/molecules/ManageOrderHeader/ManageOrderHeader.scss";
+@import "../components/molecules/AddNew/AddNew.scss";
+@import "../components/molecules/TabManagerOrder/TabManagerOrder.scss";
+@import "../components/molecules/Input/InputUser.scss";
+@import "../components/molecules/ProductComponent/ProductComponent.scss";
+// Import organisms Components
+@import "../components/organisms/Datatable/Datatable.scss";
+@import "../components/organisms/Categories/Categories.scss";
+@import "../components/organisms/DataTable/DataTable.scss";
+@import "../components/organisms/Product/Product.scss";
+@import "../components/organisms/ProductDetail/ProductDetail.scss";
+@import "../components/organisms/Table/Table.scss";
+
+// Import pages Components
+@import "../components/pages/Home/Home.scss";
+@import "../components/pages/ListUsers/List.scss";
+@import "../components/pages/Login/Login.scss";
+@import "../components/pages/New/New.scss";
+@import "../components/pages//OrderDetail/OrderDetail.scss";
+@import "../components/pages/EditUser/EditUser.scss";
+@import "../components/pages/ManageCategories/ManageCategories.scss";
+
+/*
+ * variables for scss
+ * file: variables.scss
+ */
+
+/*
+ * colors
+ */
+ $main: #2A254B;
+ $text-main: #22202E;
+ $text-primary: #4E4D93;
+ $text-purple: #726E8D;
+ $text-normal: #737373;
+ $border-grey: #EBE8F4;
+ 
+$main: #2a254b;
+$text-main: #22202e;
+$text-primary: #5b5676;
+$text-purple: #726e8d;
+$text-normal: #737373;
+
+// Figma variables colors
+$DarkPrimaryColor: #2a254b;
+$PrimaryColor: #4e4d93;
+$LightGreyColor: #f9f9f9;
+$WhiteColor: #ffffff;
+$BorderDarkColor: #cac6da;
+$textcolor: #777777;
+$black: #000;
+
+// Font import
+@import url("http://fonts.cdnfonts.com/css/clash-display");
+@import url("http://fonts.cdnfonts.com/css/satoshi");
+
+/*
+ * sizes
+ */
+$mobile-width: 320px;
+$tablet-width: 900px;
+$desktop-width: 1200px;
